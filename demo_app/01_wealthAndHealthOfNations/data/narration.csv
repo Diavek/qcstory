@@ -1,0 +1,81 @@
+narrationId,narrationClass,marginTopVh,marginBottomVh,minHeightVh,h2Text,paragraphText,hRef,hRefText,trigger,graphTitle,graphCaption
+storyConfigStart,storyConfig,40,40,50,This is the year 2020. ,"According to IBM, we have 65 Qubits as of September 2020",,,"{
+	""year"": 2020,
+	""containerStyle"": {
+		""opacity"": 1
+	},
+	""snippet"": null,
+	""highlight"": """",
+	""svgFileName"": null
+}",,
+,storyConfig,40,40,50,"That means, by the year 2023:","These are the 1,121 Qubits predicted by 2023 ",,,"{
+	""year"": 2023,
+	""containerStyle"": {
+		""opacity"": 1
+	},
+	""snippet"": null,
+	""highlight"": """",
+	""svgFileName"": null
+}",,
+,storyConfig,40,40,50,2038?,"A simple linear Regression on these four yearly Qubit predictions till 2023 tells us that by 2038, we should see about 6,168 qubits - which would break RSA algorithm encryption. f we're extremely lucky (this is the best case scenario keeping in mind that the technological advancements have been exponential and not linear till date)",,,"{
+	""year"": 2038,
+	""containerStyle"": {
+		""opacity"": 1
+	},
+	""snippet"": null,
+	""highlight"": """",
+	""svgFileName"": null
+}",,
+,storyConfig,40,40,50,Somewhere between 2025 - 2038,But this is the best case scenario. We know according to Moore's law that technological advancements are anything but linear.,,,"{
+	""year"": 2038,
+	""containerStyle"": {
+		""opacity"": 1
+	},
+	""snippet"": null,
+	""highlight"": """",
+	""svgFileName"": null
+}",,
+,storyConfig,40,40,50,"This is what the entire linear extrapolation looks like all the way till 2043 (almost 8,000 Qubits)","Eventually, we'll want to animate this chart to tell an exciting story, so here's what we're going for: triggering some chart actions based on scroll events or scroll progress.<br><br>(if you're using the spacebar/arrow keys, scroll through this to see the chart smoothly update)",,,"{
+	""year"": null,
+	""yearDomain"": [2020, 2043],
+	""svgFileName"": null,
+	""snippet"": null
+}",Qubits by time (a very linear prediction),
+sectionConfigStart,sectionConfig,40,40,50,Small-Scale Information Types at Risk,,,,"{
+	""svgFileName"": ""pii""
+}",,
+,sectionConfig,40,40,50,,"1)	Emails<br>
+2)	Credit card numbers<br>
+3)	Medical history or genetic information<br>
+4)	Juvenile criminal records<br>
+5)	Executive communications<br>
+6)	Drug trial data<br>
+7)	Intellectual property<br>
+8)	Information transmitted between cloud data centers<br>
+9)	State Department cables<br>
+10)	Communications between Department of Energy laboratories<br>
+11)	Information on facilities<q>’<q> physical security protocols<br>",,,"{
+	""svgFileName"": ""pii""
+}",,
+fetchNarrationStart,fetchNarration,40,40,50,Large-Scale IoT Risks to consider,,,,"{
+	""svgFileName"": ""industry""
+}",,
+,fetchNarration,40,40,50,Encryption is difficult to do on an IoT device. The encryption on a smartphone takes 3MB to encrypt a signal message and then decrypt on the back-end. It takes 14 rounds of encryption to get that done.,"If you have a small IoT device (eg. A thermostat or temperature sensor), those devices have a maximum of 100kb (a class 0 device) in total operating capacity. It<q>'<q>s very unlikely that encryption can be done on a small IoT device. (3)",,,"{
+	""svgFileName"": ""industry""
+}",,
+,fetchNarration,40,40,80,21st October 2016,"The DDOS attack on Dyn on 21st October 2016 took down sites such as Twitter, Netflix, Reddit and many others across the US and Europe. The <q>“<q>Mirai botnet<q>”<q> responsible was made up of IoT devices such as digital cameras and DVR players (4)",,,"{
+	""svgFileName"": ""hacker""
+}",,
+outline,fetchNarration,40,40,80,Why be concerned today if Quantum Computing isn<q>’<q>t here yet?,,,,"{
+	""svgFileName"": ""slide1""
+}",,
+,fetchNarration,40,40,80,"<q><b>“Catch now, exploit later”</b><q> - your data is already being hacked, but in the future. Did you know that?",Bad actors (entities who act to breach an IT system with motivations such as theft) can steal your encrypted data and store it away till when Quantum Computing is around. Then they can easily decrypt that data. ,,,,,
+,fetchNarration,40,40,80,"Once a form of protection against Quantum hacking is produced, it can take years to standardize solutions and even take it to market",,,,,,
+fetchDataStart,fetchData,40,40,50,The Solution,,,,,,
+,fetchData,40,40,50,Reach out to encryption and data security service providers that are aware of the need to future-proof devices in the context of Quantum Computing.,a)Consider organizations such as AgilePQ (Agile Post Quantum) (www.agilepq.com) that approach this threat with modern encryption technology across all IoT devices. ,,,,,
+,fetchData,40,40,50,Stay informed on current research and policy.,,,,,,
+renderGraphStart,renderGraph,40,40,50,Reference List,,,,,,
+,renderGraph,40,40,50,,1) NIST quantum encryption algorithms standards validation and selection process. https://csrc.nist.gov/Projects/post-quantum-cryptography/Post-Quantum-Cryptography-Standardization,,,,,
+,renderGraph,40,40,50,,"2) <q>""<q>Guideline for Using Cryptographic Standards in the Federal Government: Cryptographic Mechanisms<q>”<q>, Revision 1, March 2020 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-175Br1.pdf",,,,,
+,renderGraph,40,40,50,,3) NIST draft guidance <q>“<q>Getting Ready for Post-Quantum Cryptography<q>”<q> https://csrc.nist.gov/News/2020/draft-nist-cswp-on-getting-ready-for-pqc,,,,,
+,renderGraph,40,40,50,Thank you!,,,,,,
